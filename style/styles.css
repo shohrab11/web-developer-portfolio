@@ -1,0 +1,297 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared color */
+.primary-color {
+    color: #FD6E0A;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-heading {
+    color: #181818;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-subtitle {
+    color: #757575;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sub-heading {
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.sub-info {
+    color: #757575;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.bg-primary {
+    background-color: #FFF8F3;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.btn-secondary {
+    border-radius: 5px;
+    color: #FD6E0A;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+
+.dev-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 180px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-subtile {
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    line-height: 18px;
+}
+
+.banner-title {
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 20px;
+}
+
+.banner-img {
+    max-height: 650px;
+}
+
+main {
+    margin: 150px 150px 0 150px;
+}
+
+.about {
+    padding: 100px 156px 100px;
+}
+
+.about-info {
+    display: flex;
+    gap: 50px;
+}
+
+.about-text {
+    padding-left: 10px;
+}
+
+.about-text p {
+    color: #757575;
+    height: 10px;
+}
+
+.about-text h4 {
+    color: #474747;
+
+}
+
+.skill {
+    margin-top: 100px;
+}
+
+.skill>p {
+    margin-left: 40px;
+
+}
+
+.skill>.section-subtitle {
+    max-width: 909px;
+}
+
+.skill-card {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.skill-info {
+    width: 267px;
+    height: 100%;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.card-section {
+    display: flex;
+    gap: 40px;
+}
+
+.section-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.card-subtitle {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.card-description {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.btn{
+    margin: 30px;
+}
+.footer-container{
+    display: flex;
+    padding: 100px 200px;
+   
+}
+.footer-content{
+    width: 100%;
+}
+.footer-content a{
+    text-decoration: none;
+}
+input[type=text],input[type=email]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    padding-left: 10px;
+}
+.btn-submit{
+    display: block;
+    margin: 20px;
+}
+textarea{
+    display: block;
+    width: 100%;
+    margin: 20px;
+    border: none;
+    padding-left: 10px;
+}
+.text-left{
+    text-align: left;
+}
+.margin{
+    margin-left: 20px;
+}
